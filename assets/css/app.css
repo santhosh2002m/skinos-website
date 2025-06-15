@@ -1,0 +1,44 @@
+.price-display {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: baseline; /* Align items to the baseline for consistent height */
+}
+
+.price-sign {
+  font-size: 1rem; /* Match the size of the price for consistency */
+  font-weight: 700;
+  color: black;
+  margin-right: 2px; /* Space between ₹ and price */
+}
+
+.individual-price {
+  font-size: 1rem; /* Matches your existing font-size */
+  font-weight: 700;
+  color: black;
+}
+
+/* Optional: Ensure the product pricing container looks good */
+.product-pricing {
+  text-align: right;
+}
+
+.current-price {
+  display: block; /* Keep this if you want the price block to remain as is */
+  color: var(--accent-color); /* Purple, as per your design */
+  font-weight: 700;
+  font-size: 1.75rem; /* Keep the larger size for emphasis */
+}
+
+.price-display .individual-price {
+  font-size: 1rem; /* Matches your existing font-size */
+  font-weight: 700;
+  color: black;
+}
+
+.price-display .price-sign {
+  font-size: 0.8rem; /* Match the size of the price for consistency */
+  font-weight: 700;
+  color: black;
+  margin-left: 2px; /* Space between ₹ and price */
+}
